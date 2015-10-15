@@ -7,14 +7,14 @@ Quickly jot down notes. Notes are there when you visit again and they never leav
 There is a live instance at [https://pad.sunu.in](https://pad.sunu.in). The data is stored on the client using localStorage.
 So only your browser has access to your notes.
 
-Hit `Enter` to go into insert mode. Type out you notes. Hit `Esc` to go into view mode. View mode parses links,
+Hit `Enter` or click on the page to go into insert mode. Type out you notes. Hit `Esc` to go into view mode. View mode parses links,
 emails, phone numbers, Twitter handles etc so that they are easy to click.
 
 If you want to run you own instance, see [Setup](#setup)
 
 ## Setup
 
-1. Clone the repository.
+1. Clone the repository and `cd` into it.
 
 2. Run `npm install` to install the dependencies.
 
