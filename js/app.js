@@ -29,7 +29,11 @@ window.onload = function() {
 };
 
 function saveContent(e) {
-    localforage.setItem('savedContent', e.target.value);
+    localforage.setItem('savedContent', e.target.value)
+               .then(function(){
+                    // Chrome persistence bug workaround.
+                    localforage.getItem('savedContent');
+               })
     input.value = e.target.value;
 }
 
